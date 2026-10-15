@@ -1,0 +1,192 @@
+{
+  "schemaVersion": 1,
+  "version": "2026-10-14-prototype-1",
+  "status": "NON_AUTHORITATIVE_RESEARCH_SIGNALS",
+  "description": "Curated broad HTS-prefix research prompts; NOT ACE PGA flags, HTS-to-PGA legal mappings, agency clearance or exhaustive coverage.",
+  "signals": [
+    {
+      "id": "S01",
+      "label": "Food & agricultural products",
+      "htsPrefixes": [
+        "02",
+        "03",
+        "04",
+        "07",
+        "08",
+        "09",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22"
+      ],
+      "agencies": [
+        "fda",
+        "other"
+      ],
+      "rationale": "Product identity, processing and intended use determine which food, agriculture or animal requirements apply.",
+      "reviewStatus": "UNVERIFIED_SCREENING_SIGNAL"
+    },
+    {
+      "id": "S02",
+      "label": "Pharmaceuticals / medicinal preparations",
+      "htsPrefixes": [
+        "30"
+      ],
+      "agencies": [
+        "fda"
+      ],
+      "rationale": "Investigate drug/device classification, intended use and regulatory status.",
+      "reviewStatus": "UNVERIFIED_SCREENING_SIGNAL"
+    },
+    {
+      "id": "S03",
+      "label": "Cosmetics and personal care preparations",
+      "htsPrefixes": [
+        "3303",
+        "3304",
+        "3305",
+        "3306",
+        "3307"
+      ],
+      "agencies": [
+        "fda",
+        "tsca"
+      ],
+      "rationale": "Composition and intended use determine FDA and/or chemical regulatory scope.",
+      "reviewStatus": "UNVERIFIED_SCREENING_SIGNAL"
+    },
+    {
+      "id": "S04",
+      "label": "Medical instruments and devices",
+      "htsPrefixes": [
+        "9018",
+        "9019",
+        "9020",
+        "9021",
+        "9022"
+      ],
+      "agencies": [
+        "fda"
+      ],
+      "rationale": "Device intended use and classification matter; HTS heading alone is not determinative.",
+      "reviewStatus": "UNVERIFIED_SCREENING_SIGNAL"
+    },
+    {
+      "id": "S05",
+      "label": "Chemicals and chemical preparations",
+      "htsPrefixes": [
+        "28",
+        "29",
+        "32",
+        "34",
+        "38"
+      ],
+      "agencies": [
+        "tsca",
+        "epa"
+      ],
+      "rationale": "Substance/mixture/article distinctions, CAS identities, and regulatory exclusions matter.",
+      "reviewStatus": "UNVERIFIED_SCREENING_SIGNAL"
+    },
+    {
+      "id": "S06",
+      "label": "Pesticides and disinfectants",
+      "htsPrefixes": [
+        "3808"
+      ],
+      "agencies": [
+        "epa",
+        "tsca"
+      ],
+      "rationale": "Investigate FIFRA pesticide registration and relevant TSCA rules.",
+      "reviewStatus": "UNVERIFIED_SCREENING_SIGNAL"
+    },
+    {
+      "id": "S07",
+      "label": "Wood and wood articles",
+      "htsPrefixes": [
+        "44"
+      ],
+      "agencies": [
+        "lacey"
+      ],
+      "rationale": "Plant species, product scope, declaration phase-in and exceptions must be verified.",
+      "reviewStatus": "UNVERIFIED_SCREENING_SIGNAL"
+    },
+    {
+      "id": "S08",
+      "label": "Paper, pulp and printed products",
+      "htsPrefixes": [
+        "47",
+        "48",
+        "49"
+      ],
+      "agencies": [
+        "lacey"
+      ],
+      "rationale": "Lacey declaration scope varies by product and implementation phase.",
+      "reviewStatus": "UNVERIFIED_SCREENING_SIGNAL"
+    },
+    {
+      "id": "S09",
+      "label": "Furniture and wood components",
+      "htsPrefixes": [
+        "9401",
+        "9403"
+      ],
+      "agencies": [
+        "lacey"
+      ],
+      "rationale": "Determine whether regulated plant materials are present and declaration requirements apply.",
+      "reviewStatus": "UNVERIFIED_SCREENING_SIGNAL"
+    },
+    {
+      "id": "S10",
+      "label": "Vehicles and engines",
+      "htsPrefixes": [
+        "87",
+        "8407",
+        "8408"
+      ],
+      "agencies": [
+        "epa"
+      ],
+      "rationale": "Vehicle/engine emissions rules may require separate import evidence.",
+      "reviewStatus": "UNVERIFIED_SCREENING_SIGNAL"
+    },
+    {
+      "id": "S11",
+      "label": "Battery and electrical energy storage",
+      "htsPrefixes": [
+        "8506",
+        "8507"
+      ],
+      "agencies": [
+        "tsca",
+        "epa"
+      ],
+      "rationale": "Screen chemical form, battery composition and potential EPA rules; ordinary battery articles are not automatically TSCA certification-required.",
+      "reviewStatus": "UNVERIFIED_SCREENING_SIGNAL"
+    },
+    {
+      "id": "S12",
+      "label": "Textile or leather materials",
+      "htsPrefixes": [
+        "41",
+        "42",
+        "50",
+        "51",
+        "52",
+        "53"
+      ],
+      "agencies": [
+        "other"
+      ],
+      "rationale": "Animal/wildlife or protected species questions may arise depending on exact material and species.",
+      "reviewStatus": "UNVERIFIED_SCREENING_SIGNAL"
+    }
+  ]
+}
