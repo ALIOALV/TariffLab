@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "cases": [
+    {
+      "id": "N352609",
+      "title": "China textile historical stacking case",
+      "hts": "6208210020",
+      "origin": "CN",
+      "snapshotDate": "2025-09-04",
+      "scope": "CBP ruling factual situation only; not a general mapping",
+      "sourceUrl": "https://rulings.cbp.gov/ruling/N352609",
+      "sourceTitle": "CBP CROSS N352609 (September 4, 2025)",
+      "measures": [
+        {
+          "chapter99": "9903.88.15",
+          "ratePercent": 7.5,
+          "label": "Section 301 (historical ruling)"
+        },
+        {
+          "chapter99": "9903.01.24",
+          "ratePercent": 20,
+          "label": "IEEPA China (historical ruling)"
+        },
+        {
+          "chapter99": "9903.01.25",
+          "ratePercent": 10,
+          "label": "Reciprocal tariff (historical ruling)"
+        }
+      ],
+      "notes": [
+        "Do not apply these historical rates to 2026 entries.",
+        "One ruling does not prove broad HTS-to-Chapter 99 applicability.",
+        "Ruling-specific factual assumptions, dates, exclusions and subsequent changes require review."
+      ]
+    }
+  ]
+}
