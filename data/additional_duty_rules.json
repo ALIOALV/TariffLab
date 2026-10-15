@@ -1,6 +1,63 @@
 {
   "schemaVersion": 1,
-  "source": "TariffLab v1.0 empty reviewed rule registry",
-  "status": "NO_VERIFIED_RULES_BUNDLED",
-  "rules": []
+  "source": "TariffLab v1.2 historical CBP ruling research case N352609; NOT a general tariff schedule",
+  "status": "HISTORICAL_CASE_CANDIDATES_ONLY_NO_REVIEWED_RULES",
+  "rules": [
+    {
+      "id": "CASE-N352609-301-20250904",
+      "chapter99": "9903.88.15",
+      "category": "SECTION301",
+      "htsPrefixes": [
+        "6208210020"
+      ],
+      "origins": [
+        "CN"
+      ],
+      "effectiveFrom": "2025-09-04",
+      "effectiveTo": "2025-09-04",
+      "reviewStatus": "CANDIDATE",
+      "sourceUrl": "https://rulings.cbp.gov/ruling/N352609",
+      "sourceTitle": "CBP CROSS N352609, September 4 2025",
+      "legalAuthorityUrl": "https://rulings.cbp.gov/ruling/N352609",
+      "explanation": "Historical ruling case only: CBP cited 9903.88.15 and a 7.5% Section 301 rate for the specific garment in N352609. This one-day match window is a CASE SNAPSHOT, NOT the legal effective period or a general HTS mapping. Check current U.S. Note 20, exclusions, product facts, and intervening changes.",
+      "basis": "FULL_VALUE",
+      "ratePercent": 7.5,
+      "requiresFacts": [
+        "product"
+      ],
+      "stacking": [
+        "IEEPA_2025_HISTORICAL",
+        "RECIPROCAL_2025_HISTORICAL"
+      ],
+      "reportingOrder": 10
+    },
+    {
+      "id": "CASE-N352609-IEEPA-20250904",
+      "chapter99": "9903.01.24",
+      "category": "ADDITIONAL",
+      "htsPrefixes": [
+        "6208210020"
+      ],
+      "origins": [
+        "CN"
+      ],
+      "effectiveFrom": "2025-09-04",
+      "effectiveTo": "2025-09-04",
+      "reviewStatus": "CANDIDATE",
+      "sourceUrl": "https://rulings.cbp.gov/ruling/N352609",
+      "sourceTitle": "CBP CROSS N352609, September 4 2025",
+      "legalAuthorityUrl": "https://rulings.cbp.gov/ruling/N352609",
+      "explanation": "Historical ruling case only: N352609 discussed 9903.01.24 at 20% for its September 2025 factual setting. Do not use this record to infer present-day IEEPA validity, applicability or payable amount. Legal authority, effective period, later changes and stacking must be separately reviewed.",
+      "basis": "FULL_VALUE",
+      "ratePercent": 20,
+      "requiresFacts": [
+        "product"
+      ],
+      "stacking": [
+        "SECTION301_2025_HISTORICAL",
+        "RECIPROCAL_2025_HISTORICAL"
+      ],
+      "reportingOrder": 0
+    }
+  ]
 }
