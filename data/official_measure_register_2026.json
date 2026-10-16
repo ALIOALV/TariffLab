@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "snapshotDate": "2026-10-15",
+  "disclaimer": "Source register only. No legal applicability or duty rate is approved by this file.",
+  "measures": [
+    {
+      "id": "SRC01",
+      "title": "2026 HTS Revision 21",
+      "description": "USITC published Revision 21 on October 9, 2026. The revision is an official tariff schedule source, not a ready-made HTS-to-additional-duty mapping.",
+      "sourceDate": "2026-10-09",
+      "sourceUrl": "https://www.usitc.gov/2026_hts_revision_21",
+      "statusLabel": "Official source identified \u00b7 mapping pending",
+      "reviewStatus": "SOURCE_ONLY",
+      "payable": false
+    },
+    {
+      "id": "SRC02",
+      "title": "Section 301 \u2014 2026 actions",
+      "description": "The 2026 HTS archive identifies July Section 301 actions and conforming changes. Country, HTS coverage, exclusions and legal stacking require rule-level extraction and review.",
+      "sourceDate": "2026-07-29",
+      "sourceUrl": "https://www.usitc.gov/harmonized_tariff_information/hts/archive/list",
+      "statusLabel": "Official source identified \u00b7 mapping pending",
+      "reviewStatus": "SOURCE_ONLY",
+      "payable": false
+    },
+    {
+      "id": "SRC03",
+      "title": "Section 232 \u2014 pharmaceuticals",
+      "description": "The September 28 revision identifies pharmaceutical tariff adjustments. Product, company, country, exemption and timing conditions are not yet modeled.",
+      "sourceDate": "2026-09-28",
+      "sourceUrl": "https://www.usitc.gov/2026_hts_revision_20",
+      "statusLabel": "Official source identified \u00b7 mapping pending",
+      "reviewStatus": "SOURCE_ONLY",
+      "payable": false
+    },
+    {
+      "id": "SRC04",
+      "title": "Section 232 \u2014 unmanned aircraft",
+      "description": "The September 2 revision identifies unmanned aircraft systems and component adjustments. Product classification and Chapter 99 mappings remain to be validated.",
+      "sourceDate": "2026-09-02",
+      "sourceUrl": "https://www.usitc.gov/harmonized_tariff_information/hts/archive/list",
+      "statusLabel": "Official source identified \u00b7 mapping pending",
+      "reviewStatus": "SOURCE_ONLY",
+      "payable": false
+    },
+    {
+      "id": "SRC05",
+      "title": "Section 232 \u2014 metals and derivatives",
+      "description": "The 2026 archive lists changes to aluminum, steel and copper measures. Content-based valuation, derivative scope and legal interactions remain unmodeled.",
+      "sourceDate": "2026-06-08",
+      "sourceUrl": "https://www.usitc.gov/harmonized_tariff_information/hts/archive/list",
+      "statusLabel": "Official source identified \u00b7 mapping pending",
+      "reviewStatus": "SOURCE_ONLY",
+      "payable": false
+    },
+    {
+      "id": "SRC06",
+      "title": "IEEPA historical treatment",
+      "description": "IEEPA duty collection ceased for entries from February 24, 2026 according to contemporaneous CBP reporting. Historical cases remain separate from current payable rules.",
+      "sourceDate": "2026-02-24",
+      "sourceUrl": "https://www.cbp.gov/trade/automated/csms",
+      "statusLabel": "Official source identified \u00b7 mapping pending",
+      "reviewStatus": "SOURCE_ONLY",
+      "payable": false
+    }
+  ]
+}
