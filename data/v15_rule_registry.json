@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "snapshotDate": "2026-10-15",
+  "verificationPolicy": "SOURCE_ONLY; NOT approved HTS mappings; no rates or payable duty totals",
+  "measures": [
+    {
+      "id": "301_2026",
+      "title": "Section 301 \u2014 2026 forced-labor-related country actions",
+      "earliestPotentialDate": "2026-07-24",
+      "sourceUrl": "https://www.usitc.gov/harmonized_tariff_information/hts/archive/list"
+    },
+    {
+      "id": "232_PHARMA",
+      "title": "Section 232 \u2014 pharmaceutical products",
+      "earliestPotentialDate": "2026-09-28",
+      "sourceUrl": "https://www.usitc.gov/harmonized_tariff_information/hts/archive/list"
+    },
+    {
+      "id": "232_DRONES",
+      "title": "Section 232 \u2014 unmanned aircraft and components",
+      "earliestPotentialDate": "2026-09-03",
+      "sourceUrl": "https://www.usitc.gov/harmonized_tariff_information/hts/archive/list"
+    },
+    {
+      "id": "232_METALS",
+      "title": "Section 232 \u2014 metals and derivatives",
+      "earliestPotentialDate": "2025-01-01",
+      "sourceUrl": "https://www.usitc.gov/harmonized_tariff_information/hts/archive/list"
+    },
+    {
+      "id": "338_CANADA",
+      "title": "Section 338 \u2014 selected Canadian products",
+      "earliestPotentialDate": "2026-08-19",
+      "sourceUrl": "https://www.usitc.gov/harmonized_tariff_information/hts/archive/list"
+    },
+    {
+      "id": "301_CHINA",
+      "title": "Section 301 \u2014 China technology transfer measures and exclusions",
+      "earliestPotentialDate": "2018-01-01",
+      "sourceUrl": "https://ustr.gov/issue-areas/enforcement/section-301-investigations"
+    }
+  ]
+}
