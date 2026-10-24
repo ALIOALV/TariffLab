@@ -1,0 +1,37 @@
+{
+  "schema": "tarifflab-301-rate-research-v1",
+  "asOf": "2026-10-24",
+  "scope": "HISTORICAL_RATE_TIERS_NOT_HTS_APPLICABILITY",
+  "source": "https://www.ustr.gov/issue-areas/enforcement/section-301-investigations/search",
+  "notice": "These rates are historical reference tiers. They are not current, HTS-specific, or payable rate determinations. 2024-2026 modifications may supersede them.",
+  "tiers": [
+    {
+      "id": "list1",
+      "name": "List 1 historical reference",
+      "chapter99": "9903.88.01",
+      "rate": 25,
+      "note": "Historical 25% reference; verify USTR current HTS search and legal notes."
+    },
+    {
+      "id": "list2",
+      "name": "List 2 historical reference",
+      "chapter99": "9903.88.02",
+      "rate": 25,
+      "note": "Historical 25% reference; verify USTR current HTS search and legal notes."
+    },
+    {
+      "id": "list3",
+      "name": "List 3 historical reference",
+      "chapter99": "9903.88.03",
+      "rate": 25,
+      "note": "Historical 25% reference; verify USTR current HTS search and legal notes."
+    },
+    {
+      "id": "list4a",
+      "name": "List 4A historical reference",
+      "chapter99": "9903.88.15",
+      "rate": 7.5,
+      "note": "Historical 7.5% reference; verify USTR current HTS search and legal notes."
+    }
+  ]
+}
