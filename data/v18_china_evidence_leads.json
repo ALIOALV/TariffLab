@@ -1,0 +1,60 @@
+{
+  "schema": "tarifflab-section301-evidence-v1",
+  "snapshot": "2026-10-24",
+  "coverage": "LIMITED_SELECTED_EXCLUSION_NOTICES",
+  "disclaimer": "Potential source-referenced exclusion research leads only. Statistical code matching does not prove exclusion eligibility or Section 301 duty applicability. No payable rates.",
+  "records": [
+    {
+      "id": "cbp-70261629-pump-8413919039",
+      "hts10": "8413919039",
+      "origin": "CN",
+      "chapter99": "9903.88.69",
+      "type": "EXCLUSION_RESEARCH_LEAD",
+      "effectiveFrom": "2026-07-01",
+      "effectiveTo": null,
+      "source": "https://content.govdelivery.com/accounts/USDHSCBP/bulletins/4301b7d",
+      "sourceTitle": "CBP CSMS #70261629 \u2014 Updated Section 301 China Conforming Amendment",
+      "conditions": "CBP identifies amended statistical reporting categories in U.S. note 20(vvv)(i)(4)-(5); product-specific descriptions and all conditions must be independently checked.",
+      "verification": "REVIEW_REQUIRED"
+    },
+    {
+      "id": "cbp-70261629-pump-8413919039",
+      "hts10": "8413919046",
+      "origin": "CN",
+      "chapter99": "9903.88.69",
+      "type": "EXCLUSION_RESEARCH_LEAD",
+      "effectiveFrom": "2026-07-01",
+      "effectiveTo": null,
+      "source": "https://content.govdelivery.com/accounts/USDHSCBP/bulletins/4301b7d",
+      "sourceTitle": "CBP CSMS #70261629 \u2014 Updated Section 301 China Conforming Amendment",
+      "conditions": "CBP identifies amended statistical reporting categories in U.S. note 20(vvv)(i)(4)-(5); product-specific descriptions and all conditions must be independently checked.",
+      "verification": "REVIEW_REQUIRED"
+    },
+    {
+      "id": "cbp-70261629-pump-8413919039",
+      "hts10": "8413919059",
+      "origin": "CN",
+      "chapter99": "9903.88.69",
+      "type": "EXCLUSION_RESEARCH_LEAD",
+      "effectiveFrom": "2026-07-01",
+      "effectiveTo": null,
+      "source": "https://content.govdelivery.com/accounts/USDHSCBP/bulletins/4301b7d",
+      "sourceTitle": "CBP CSMS #70261629 \u2014 Updated Section 301 China Conforming Amendment",
+      "conditions": "CBP identifies amended statistical reporting categories in U.S. note 20(vvv)(i)(4)-(5); product-specific descriptions and all conditions must be independently checked.",
+      "verification": "REVIEW_REQUIRED"
+    },
+    {
+      "id": "cbp-70261629-pump-8413919039",
+      "hts10": "8413919099",
+      "origin": "CN",
+      "chapter99": "9903.88.69",
+      "type": "EXCLUSION_RESEARCH_LEAD",
+      "effectiveFrom": "2026-07-01",
+      "effectiveTo": null,
+      "source": "https://content.govdelivery.com/accounts/USDHSCBP/bulletins/4301b7d",
+      "sourceTitle": "CBP CSMS #70261629 \u2014 Updated Section 301 China Conforming Amendment",
+      "conditions": "CBP identifies amended statistical reporting categories in U.S. note 20(vvv)(i)(4)-(5); product-specific descriptions and all conditions must be independently checked.",
+      "verification": "REVIEW_REQUIRED"
+    }
+  ]
+}
