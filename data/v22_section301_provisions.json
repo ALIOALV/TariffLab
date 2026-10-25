@@ -1,0 +1,85 @@
+{
+  "version": "2.2",
+  "status": "REFERENCE_ONLY_NOT_HTS_COVERAGE",
+  "scope": "Historical CBP Section 301 China tranche rate references; later modifications and exclusions may change outcomes. Never infer coverage from COO alone.",
+  "sourceLookup": "https://www.ustr.gov/issue-areas/enforcement/section-301-investigations/search",
+  "records": [
+    {
+      "name": "List 1",
+      "chapter99": "9903.88.01",
+      "historicalReferenceRatePct": 25,
+      "referenceEffectiveFrom": "2018-07-06",
+      "referenceEffectiveThrough": null,
+      "source": "https://content.govdelivery.com/accounts/USDHSCBP/bulletins/1fab633",
+      "coverage": "UNMAPPED",
+      "currentRateVerified": false,
+      "exclusionStatus": "NOT_CHECKED"
+    },
+    {
+      "name": "List 2",
+      "chapter99": "9903.88.02",
+      "historicalReferenceRatePct": 25,
+      "referenceEffectiveFrom": "2018-08-23",
+      "referenceEffectiveThrough": null,
+      "source": "https://content.govdelivery.com/accounts/USDHSCBP/bulletins/2078fe5",
+      "coverage": "UNMAPPED",
+      "currentRateVerified": false,
+      "exclusionStatus": "NOT_CHECKED"
+    },
+    {
+      "name": "List 3",
+      "chapter99": "9903.88.03",
+      "historicalReferenceRatePct": 25,
+      "referenceEffectiveFrom": "2019-05-10",
+      "referenceEffectiveThrough": null,
+      "source": "https://content.govdelivery.com/attachments/USDHSCBP/2024/09/26/file_attachments/3011514/Section%20301%20Tranches%20and%20Rounds%20chart%2009232024.pdf",
+      "coverage": "UNMAPPED",
+      "currentRateVerified": false,
+      "exclusionStatus": "NOT_CHECKED"
+    },
+    {
+      "name": "List 3 alternate",
+      "chapter99": "9903.88.04",
+      "historicalReferenceRatePct": 25,
+      "referenceEffectiveFrom": "2019-05-10",
+      "referenceEffectiveThrough": null,
+      "source": "https://content.govdelivery.com/attachments/USDHSCBP/2024/09/26/file_attachments/3011514/Section%20301%20Tranches%20and%20Rounds%20chart%2009232024.pdf",
+      "coverage": "UNMAPPED",
+      "currentRateVerified": false,
+      "exclusionStatus": "NOT_CHECKED"
+    },
+    {
+      "name": "List 4A",
+      "chapter99": "9903.88.15",
+      "historicalReferenceRatePct": 7.5,
+      "referenceEffectiveFrom": "2020-02-14",
+      "referenceEffectiveThrough": null,
+      "source": "https://content.govdelivery.com/attachments/USDHSCBP/2024/09/26/file_attachments/3011514/Section%20301%20Tranches%20and%20Rounds%20chart%2009232024.pdf",
+      "coverage": "UNMAPPED",
+      "currentRateVerified": false,
+      "exclusionStatus": "NOT_CHECKED"
+    },
+    {
+      "name": "2024 review tranche 2026",
+      "chapter99": "9903.91.06",
+      "historicalReferenceRatePct": 25,
+      "referenceEffectiveFrom": "2026-01-01",
+      "referenceEffectiveThrough": null,
+      "source": "https://content.govdelivery.com/attachments/USDHSCBP/2024/09/26/file_attachments/3011514/Section%20301%20Tranches%20and%20Rounds%20chart%2009232024.pdf",
+      "coverage": "UNMAPPED",
+      "currentRateVerified": false,
+      "exclusionStatus": "NOT_CHECKED"
+    },
+    {
+      "name": "2024 review tranche 2026",
+      "chapter99": "9903.91.07",
+      "historicalReferenceRatePct": 50,
+      "referenceEffectiveFrom": "2026-01-01",
+      "referenceEffectiveThrough": null,
+      "source": "https://content.govdelivery.com/attachments/USDHSCBP/2024/09/26/file_attachments/3011514/Section%20301%20Tranches%20and%20Rounds%20chart%2009232024.pdf",
+      "coverage": "UNMAPPED",
+      "currentRateVerified": false,
+      "exclusionStatus": "NOT_CHECKED"
+    }
+  ]
+}
