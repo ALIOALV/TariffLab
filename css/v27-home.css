@@ -47,3 +47,21 @@ body.tl27-on>.shell,body.tl27-on>#tl26-launch{display:none!important}
 #tl27-home .tl27-top{z-index:10}
 @media(max-width:760px){#tl27-home .tl27-hero{min-height:calc(100svh - 74px);padding:100px 16px 90px}#tl27-home .tl27-title{font-size:clamp(43px,11vw,72px)!important}#tl27-home .tl27-orbit{width:95vw;top:40%}#tl27-home .tl27-toplinks .tl27-outline{padding:10px 12px}}
 @media(prefers-reduced-motion:reduce){#tl27-home .tl27-orbit svg,#tl27-home .tl27-title .tl27-line>span{animation:none!important}}
+
+/* v2.7.2: homepage quick research and strict legacy isolation */
+body.tl27-on > :not(#tl27-home):not(script):not(style){display:none!important}
+#tl27-home .tl272-results[hidden]{display:none!important}
+#tl27-home .tl272-results{margin:-34px 0 65px;padding:26px;border-radius:22px;border:1px solid #397b83;background:linear-gradient(135deg,#0f2c3a,#0b1a29);color:#e8f7fa;box-shadow:0 24px 75px #0005}
+#tl27-home .tl272-head{display:flex;justify-content:space-between;gap:16px;align-items:start}
+#tl27-home .tl272-head h3{font-size:clamp(21px,3vw,30px);margin:8px 0 15px}
+#tl27-home .tl272-coo{font-size:13px;color:#a4d2d9;font-weight:500}
+#tl27-home .tl272-notice{color:#c6d7de;font-size:13px;line-height:1.7;padding:13px 16px;background:#122c3b;border-left:3px solid #6bdfd5;border-radius:8px}
+#tl27-home .tl272-match,#tl27-home .tl272-empty{padding:18px;margin-top:14px;background:#091a28;border:1px solid #355667;border-radius:14px}
+#tl27-home .tl272-match{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}
+#tl27-home .tl272-match h4{font-size:20px;margin:10px 0}
+#tl27-home .tl272-match p,#tl27-home .tl272-empty p{color:#b8cbd4;font-size:14px;line-height:1.6}
+#tl27-home .tl272-tag{font-size:11px;letter-spacing:.04em;text-transform:uppercase;color:#9fe8dd}
+#tl27-home .tl272-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:20px}
+#tl27-home .tl272-close{background:transparent;border:1px solid #476674;color:white;border-radius:10px}
+#tl27-home .tl272-error{color:#ffd4b7}
+#tl27-home .tl272-match a{align-self:center;color:#a0f7e9}
