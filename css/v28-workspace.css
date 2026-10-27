@@ -1,0 +1,27 @@
+/* TariffLab 2.8 — unified workspace design layer. Legacy calculation logic untouched. */
+body:not(.tl27-on){background:#07111c!important;color:#e5f3f6}
+body:not(.tl27-on) .shell{max-width:1440px!important;margin:auto;padding:0 clamp(16px,3vw,44px) 80px}
+body:not(.tl27-on) .shell>header{position:sticky;top:0;z-index:80;display:flex;align-items:center;justify-content:space-between;gap:12px;background:#07111cf0!important;backdrop-filter:blur(20px);border-bottom:1px solid #244252;padding:18px 0!important}
+body:not(.tl27-on) .shell .logo{font-size:23px!important;letter-spacing:-.045em;cursor:pointer}
+body:not(.tl27-on) .shell .tag{font-size:11px;color:#8caab9}
+body:not(.tl27-on) .shell>nav{display:flex;align-items:center;gap:7px;flex-wrap:wrap;position:sticky;top:78px;z-index:79;padding:12px 0 17px!important;background:#07111cf0!important;backdrop-filter:blur(20px);border-bottom:1px solid #244252;margin-bottom:28px}
+body:not(.tl27-on) .shell>nav button,body:not(.tl27-on) #tl28-advanced>summary{font-family:inherit!important;font-size:13px!important;font-weight:650;border:1px solid #2d4b5a!important;border-radius:12px!important;background:#102130!important;color:#b7cbd4!important;padding:11px 15px!important;cursor:pointer}
+body:not(.tl27-on) .shell>nav button.active{background:#1b4b50!important;color:#d6fffa!important;border-color:#5ad5c9!important;box-shadow:inset 0 0 0 1px #5ad5c93d}
+#tl28-advanced{position:relative;margin-left:auto}
+#tl28-advanced>summary{list-style:none;display:block}#tl28-advanced>summary::-webkit-details-marker{display:none}
+#tl28-advanced[open] .tl28-menu{position:absolute;right:0;top:calc(100% + 9px);display:grid;gap:6px;min-width:245px;padding:10px;border:1px solid #315261;border-radius:15px;background:#10202f;box-shadow:0 20px 55px #0009;z-index:100}
+#tl28-advanced .tl28-menu button{text-align:left;width:100%}
+#tl28-home{border-color:#53cfc4!important;color:#d9fffb!important;background:#143b42!important}
+#tl28-context{margin:10px 0 24px;animation:tl28-in .45s ease both}
+#tl28-context .tl28-eyebrow{color:#66d9cc;letter-spacing:.14em;text-transform:uppercase;font-size:11px;font-weight:800}
+#tl28-context h1{font-size:clamp(30px,4vw,55px);line-height:1.1;letter-spacing:-.05em;margin:10px 0!important;color:#f2fafc}
+#tl28-context p{font-size:14px;line-height:1.7;color:#a7c0ca;max-width:740px;margin:0}
+body:not(.tl27-on) .shell .panel,body:not(.tl27-on) .shell .v09box,body:not(.tl27-on) .shell .v22panel{border-radius:20px!important;border:1px solid #2a4a5a!important;background:linear-gradient(145deg,#112535,#0b1b29)!important;box-shadow:0 12px 36px #0002}
+body:not(.tl27-on) .shell section:not(.hidden)>.panel,body:not(.tl27-on) .shell section:not(.hidden)>.v09hero{animation:tl28-in .55s ease both}
+body:not(.tl27-on) .shell input,body:not(.tl27-on) .shell select,body:not(.tl27-on) .shell textarea{border-radius:10px!important}
+body:not(.tl27-on) .shell h1,body:not(.tl27-on) .shell h2{letter-spacing:-.025em}
+body:not(.tl27-on) #tl27-back{display:none!important}
+body:not(.tl27-on) .shell #updatePanel{margin-top:0!important}
+@keyframes tl28-in{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+@media(max-width:800px){body:not(.tl27-on) .shell>header{position:relative;flex-wrap:wrap}body:not(.tl27-on) .shell>nav{top:0;gap:5px}body:not(.tl27-on) .shell>nav button,body:not(.tl27-on) #tl28-advanced>summary{padding:9px!important;font-size:11px!important}#tl28-advanced{margin-left:0}#tl28-advanced[open] .tl28-menu{right:auto;left:0}}
+@media(prefers-reduced-motion:reduce){#tl28-context,body:not(.tl27-on) .shell section{animation:none!important}}
