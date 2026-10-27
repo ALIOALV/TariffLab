@@ -25,3 +25,9 @@ body:not(.tl27-on) .shell #updatePanel{margin-top:0!important}
 @keyframes tl28-in{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
 @media(max-width:800px){body:not(.tl27-on) .shell>header{position:relative;flex-wrap:wrap}body:not(.tl27-on) .shell>nav{top:0;gap:5px}body:not(.tl27-on) .shell>nav button,body:not(.tl27-on) #tl28-advanced>summary{padding:9px!important;font-size:11px!important}#tl28-advanced{margin-left:0}#tl28-advanced[open] .tl28-menu{right:auto;left:0}}
 @media(prefers-reduced-motion:reduce){#tl28-context,body:not(.tl27-on) .shell section{animation:none!important}}
+
+/* v2.8.1: dropdown is viewport-anchored, above all workspace layers */
+#tl28-advanced[open] .tl28-menu{position:fixed!important;right:auto!important;left:var(--unused,auto);top:auto;z-index:2147483600!important;max-height:min(70vh,480px);overflow-y:auto;min-width:255px;}
+body:not(.tl27-on) .shell>nav{overflow:visible!important;}
+body:not(.tl27-on) .shell{overflow:visible!important;}
+@media(prefers-reduced-motion:reduce){#tl27-home,.shell{scroll-behavior:auto!important}}
