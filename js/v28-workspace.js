@@ -3,6 +3,8 @@ const shell=document.querySelector('.shell'),nav=shell?.querySelector(':scope > 
 const buttons=[...nav.querySelectorAll(':scope > button[data-tab]')];
 const advanced=document.createElement('details');advanced.id='tl28-advanced';advanced.innerHTML='<summary>More tools ▾</summary><div class="tl28-menu"></div>';
 const menu=advanced.querySelector('.tl28-menu');
+function placeMenu(){const r=advanced.getBoundingClientRect();menu.style.left=Math.max(12,Math.min(window.innerWidth-270,r.right-255))+'px';menu.style.top=Math.min(window.innerHeight-20,r.bottom+8)+'px';}
+advanced.addEventListener('toggle',()=>{if(advanced.open)placeMenu()});window.addEventListener('resize',()=>{if(advanced.open)placeMenu()});window.addEventListener('scroll',()=>{if(advanced.open)placeMenu()},{passive:true});
 const primary=['simulator','research','calc','sources'];
 const names={simulator:'Duty stacking',research:'HTS research',calc:'Costs & fees',sources:'Sources',compliance:'Origin & PGA',pgaMatrix:'PGA matrix',batch:'Batch analysis',datasets:'HTS datasets'};
 for(const b of buttons){const id=b.dataset.tab;b.textContent=names[id]||b.textContent;if(!primary.includes(id))menu.append(b)}
@@ -15,4 +17,7 @@ const copy={simulator:['DUTY STACKING','Duty stacking, without the noise.','Ente
 function update(id){const [k,title,desc]=copy[id]||copy.simulator;context.innerHTML='<div class="tl28-eyebrow">TARIFFLAB / '+k+'</div><h1>'+title+'</h1><p>'+desc+'</p>';advanced.open=false;}
 buttons.forEach(b=>b.addEventListener('click',()=>{update(b.dataset.tab);if(b.parentElement===menu)advanced.open=false;window.scrollTo({top:0,behavior:'instant'});}));
 update(document.querySelector('.shell nav button.active')?.dataset.tab||'research');
+const canAnimate=()=>!window.matchMedia('(prefers-reduced-motion: reduce)').matches&&typeof Element.prototype.animate==='function';
+window.tl281AnimateOut=(el,direction,done)=>{if(!el||!canAnimate()){done();return;}const x=direction==='left'?'-14vw':'14vw';const a=el.animate([{opacity:1,transform:'translateX(0)'},{opacity:0,transform:'translateX('+x+')'}],{duration:260,easing:'cubic-bezier(.4,0,1,1)'});a.onfinish=done;a.oncancel=done;};
+window.tl281AnimateIn=(el,direction)=>{if(!el||!canAnimate())return;const x=direction==='left'?'-14vw':'14vw';el.animate([{opacity:0,transform:'translateX('+x+')'},{opacity:1,transform:'translateX(0)'}],{duration:420,easing:'cubic-bezier(.16,1,.3,1)'});};
 })();
